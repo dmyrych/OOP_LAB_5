@@ -1,8 +1,8 @@
 package Task_1;
 
-public class InformationYellow {
+public class InformationYellow extends Printer {
     public InformationYellow(String info){
-        System.out.println(ConsoleColors.YELLOW + info);
+        Print(ConsoleColors.YELLOW + info);
         System.out.println(ConsoleColors.RESET);
     }
 }
